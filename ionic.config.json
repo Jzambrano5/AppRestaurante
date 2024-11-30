@@ -1,0 +1,7 @@
+{
+  "name": "appRestaurante",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
