@@ -1,0 +1,38 @@
+ion-content {
+    --background: url('/assets/images/background.jpg') no-repeat center center / cover;
+  }
+  
+  ion-card {
+    --border-radius: 20px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  ion-card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  ion-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  ion-card-content p {
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
+  }
+  
+  ion-tab-bar {
+    --background: white;
+  }
+  
+  ion-tab-button {
+    color: black;
+  }
+  
+  ion-tab-button[aria-selected=true] {
+    color: red;
+  }
+  

@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Menu</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar placeholder="Search..."></ion-searchbar>
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" size-md="4" size-lg="3" >
+        <ion-card>
+          <img src="assets/images/encebollado.png" alt="Encebollado Manabita"/>
+          <ion-card-content>
+            <ion-card-title>Encebollado Manabita</ion-card-title>
+            <p>$2.50</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="menu">
+      <ion-icon name="restaurant"></ion-icon>
+      <ion-label>Menu</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="reservations">
+      <ion-icon name="calendar"></ion-icon>
+      <ion-label>Reservas</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="profile">
+      <ion-icon name="person" style="font-size: 24px; color: #3880ff;"></ion-icon>
+      <a href="" routerLink="/perfil">
+        Perfil
+       </a>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-footer>
+
